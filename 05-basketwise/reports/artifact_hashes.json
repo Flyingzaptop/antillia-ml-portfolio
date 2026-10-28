@@ -1,0 +1,9 @@
+{
+  "catalog.json": "e3e349e815ac7f26a88a802379390d623bd18fa230328dbd47c1bb8004edd6bd",
+  "config.json": "59d0c47fe2574e61bd990850b70e409c483df687369d38ba793d7d1b1f1ef92f",
+  "evaluation_cases.json": "d9f82c3087e97b66dee10b65ff0c63f9bdac03782355043f2981aa79bc0eb059",
+  "metrics.json": "d33bb62954b41d0b54b7a6d68837f5f46800e710a4b6caa96782d0712e87fde3",
+  "split_manifest.json": "595087bf9e4975302415538545f9caf421592cd5276407bdf9ca52a2b1fcdbcd",
+  "train_matrix.npz": "fbf3b0a2ffb4b7e0513dc1f878ef2f241f4e979ecbf322ee773d8f28b038b082",
+  "weights.npz": "34cf5abbd6212f645a38953ea2a66494a96e2fa4de6c07c99942b92de9d1f241"
+}

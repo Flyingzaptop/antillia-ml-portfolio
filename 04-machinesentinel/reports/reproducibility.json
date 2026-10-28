@@ -1,0 +1,17 @@
+{
+  "tolerance": 1e-05,
+  "max_delta": 0.0,
+  "deltas": {
+    "autoencoder/pr_auc": 0.0,
+    "autoencoder/roc_auc": 0.0,
+    "autoencoder/precision": 0.0,
+    "autoencoder/recall": 0.0,
+    "autoencoder/threshold": 0.0,
+    "isolationforest/pr_auc": 0.0,
+    "isolationforest/roc_auc": 0.0,
+    "isolationforest/precision": 0.0,
+    "isolationforest/recall": 0.0,
+    "isolationforest/threshold": 0.0
+  },
+  "passed": true
+}

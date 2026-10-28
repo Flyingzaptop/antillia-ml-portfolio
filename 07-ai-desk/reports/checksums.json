@@ -1,0 +1,13 @@
+{
+  "artifacts\\encoder\\config.json": "1de3784e8747f78505b9ef98acbb1acbdf9c71fd6aad82944537fa4351e78ed8",
+  "artifacts\\encoder\\config_sentence_transformers.json": "d611112e725e9f5777ba98188baab999c3b059da8ee84d0bda332c2febd3ac1a",
+  "artifacts\\encoder\\LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+  "artifacts\\encoder\\model.safetensors": "7f4f89d628f87ade0e0b57c40affb6402cd77abc8110584d8d35dc86da514ee8",
+  "artifacts\\encoder\\modules.json": "27e3a229cecaf4d6ec90fb8e439d6bd2da7b2e22ff49a23e0b0a293a5f3e413c",
+  "artifacts\\encoder\\README.md": "90bc9c8da4ec9fad492fd04218f7f3eabaa4173c9e8eec9dc59b519a01751cbb",
+  "artifacts\\encoder\\sentence_bert_config.json": "874954176b1baf79cb203116c9583f72249d6d28012447ecccfc248a680e0400",
+  "artifacts\\encoder\\special_tokens_map.json": "66715ae6a0dd4aff4fe228bcaaccac6e52c83fd0ba80992c2be7d0e43b362307",
+  "artifacts\\encoder\\tokenizer.json": "cad551d5600a84242d0973327029452a1e3672ba6313c2a3c3d69c4310e12719",
+  "artifacts\\encoder\\tokenizer_config.json": "1fed1cc0c6f6bad47d564fca8c308cbed81cf4e5d3af36651e9e804717e5795d",
+  "artifacts\\encoder\\1_Pooling\\config.json": "b4105bf48c5257a542a7e1968cef220b3ecd49ae24943143279650c4ac6e30a0"
+}

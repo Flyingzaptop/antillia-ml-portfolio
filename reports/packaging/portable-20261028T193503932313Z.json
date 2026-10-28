@@ -1,0 +1,51 @@
+[
+  {
+    "project": "04-machinesentinel",
+    "snapshot": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T193503932313Z\\04-machinesentinel",
+    "clean_install": false,
+    "environment_note": "Original per-project venv reused; validates relocated source/model/data only. NOT clean-install verification.",
+    "source_verification": {
+      "verified_against_recorded_hashes": [
+        "artifacts\\autoencoder.pt",
+        "artifacts\\config.json",
+        "artifacts\\isolationforest.pkl",
+        "artifacts\\scaler.pkl",
+        "artifacts\\splits.json",
+        "data\\source.zip"
+      ],
+      "note": "All packaged files additionally receive SHA256 entries; encoder weights without prior manifest are inventoried, not claimed independently authenticated."
+    },
+    "passed": true,
+    "summary": {
+      "score": 0.13335142098117772,
+      "model": "autoencoder"
+    },
+    "source_root": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T193503932313Z\\04-machinesentinel",
+    "original_project_source_imports": [],
+    "seconds": 14.37
+  },
+  {
+    "project": "03-terravision",
+    "snapshot": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T193503932313Z\\03-terravision",
+    "clean_install": false,
+    "environment_note": "Original per-project venv reused; validates relocated source/model/data only. NOT clean-install verification.",
+    "source_verification": {
+      "verified_against_recorded_hashes": [
+        "artifacts\\baseline.pkl",
+        "artifacts\\config.json",
+        "artifacts\\resnet18.pt",
+        "artifacts\\splits.json",
+        "data\\source.zip"
+      ],
+      "note": "All packaged files additionally receive SHA256 entries; encoder weights without prior manifest are inventoried, not claimed independently authenticated."
+    },
+    "passed": true,
+    "summary": {
+      "class": "AnnualCrop",
+      "model": "resnet18"
+    },
+    "source_root": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T193503932313Z\\03-terravision",
+    "original_project_source_imports": [],
+    "seconds": 92.52
+  }
+]

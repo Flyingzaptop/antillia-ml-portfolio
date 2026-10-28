@@ -1,0 +1,6 @@
+{
+  "artifacts/baseline.pkl": "5c59f8ac7d9465696c03de70a3275a7299b01dd5db9dbf961cad4f9ce7e80e3e",
+  "artifacts/config.json": "f618a6f6328cbb36d0b2cacd151cebacfe81a9bc3248413fd02232557ac78a15",
+  "artifacts/resnet18.pt": "179901b7c086fa89f15f7c1c5c2b6ef6bf6588415458960e471f7a6b50bf21c2",
+  "artifacts/splits.json": "8768c879be19ac6272188aaae16f76e1f0a2d39ea443c769212eb50d9f480235"
+}

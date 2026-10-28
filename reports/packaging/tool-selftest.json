@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checks": [
+    "secret/database/runtime exclusions",
+    "frontend and source inclusion",
+    "recorded artifact checksum validation",
+    "tampered model rejection"
+  ],
+  "fixtures": "reports\\packaging\\tool-selftest\\20261028T193810346142Z"
+}

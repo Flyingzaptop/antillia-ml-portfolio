@@ -1,0 +1,23 @@
+{
+  "dry_run": true,
+  "results": [
+    {
+      "project": "04-machinesentinel",
+      "files": 49,
+      "uncompressed_bytes": 5688692,
+      "archive": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\dist\\04-machinesentinel.zip",
+      "sha256": null,
+      "source_verification": {
+        "verified_against_recorded_hashes": [
+          "artifacts\\autoencoder.pt",
+          "artifacts\\config.json",
+          "artifacts\\isolationforest.pkl",
+          "artifacts\\scaler.pkl",
+          "artifacts\\splits.json",
+          "data\\source.zip"
+        ],
+        "note": "All packaged files additionally receive SHA256 entries; encoder weights without prior manifest are inventoried, not claimed independently authenticated."
+      }
+    }
+  ]
+}

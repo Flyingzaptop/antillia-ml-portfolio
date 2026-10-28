@@ -1,0 +1,30 @@
+[
+  {
+    "project": "01-demandcast",
+    "snapshot": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T193748334215Z\\01-demandcast",
+    "clean_install": false,
+    "environment_note": "Original per-project venv reused; validates relocated source/model/data only. NOT clean-install verification.",
+    "source_verification": {
+      "verified_against_recorded_hashes": [
+        "artifacts\\boosting.joblib",
+        "artifacts\\config.json",
+        "artifacts\\gru.pt",
+        "artifacts\\metrics.json",
+        "artifacts\\scaler.json",
+        "artifacts\\splits.npz",
+        "artifacts\\split_manifest.json",
+        "artifacts\\training_history.json",
+        "data\\bike-sharing.zip"
+      ],
+      "note": "All packaged files additionally receive SHA256 entries; encoder weights without prior manifest are inventoried, not claimed independently authenticated."
+    },
+    "passed": true,
+    "summary": {
+      "horizon": 24,
+      "model": "seasonal"
+    },
+    "source_root": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T193748334215Z\\01-demandcast",
+    "original_project_source_imports": [],
+    "seconds": 14.28
+  }
+]

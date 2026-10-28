@@ -1,0 +1,30 @@
+{
+  "status": 200,
+  "request_id_present": true,
+  "response": {
+    "results": [
+      {
+        "label": "card_arrival",
+        "confidence": 0.893508791923523,
+        "uncertain": false,
+        "top": [
+          {
+            "label": "card_arrival",
+            "probability": 0.893508791923523
+          },
+          {
+            "label": "card_delivery_estimate",
+            "probability": 0.09337044507265091
+          },
+          {
+            "label": "get_physical_card",
+            "probability": 0.0038695866242051125
+          }
+        ]
+      }
+    ],
+    "model": "embedding_mlp",
+    "elapsed_ms": 40.32,
+    "threshold": 0.6500000000000001
+  }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "project": "07-ai-desk",
+    "requestedWidth": 1440,
+    "language": "pl",
+    "lang": "pl",
+    "scrollWidth": 1440,
+    "title": "AI Desk · Antillia North",
+    "width": 1440,
+    "overflow": false
+  },
+  {
+    "project": "07-ai-desk",
+    "requestedWidth": 768,
+    "language": "pl",
+    "lang": "pl",
+    "scrollWidth": 768,
+    "title": "AI Desk · Antillia North",
+    "width": 768,
+    "overflow": false
+  },
+  {
+    "project": "07-ai-desk",
+    "requestedWidth": 390,
+    "language": "pl",
+    "lang": "pl",
+    "scrollWidth": 375,
+    "title": "AI Desk · Antillia North",
+    "width": 375,
+    "overflow": false
+  },
+  {
+    "project": "07-ai-desk",
+    "requestedWidth": 1440,
+    "language": "en",
+    "lang": "en",
+    "scrollWidth": 1440,
+    "title": "AI Desk · Antillia North",
+    "width": 1440,
+    "overflow": false
+  },
+  {
+    "project": "07-ai-desk",
+    "requestedWidth": 768,
+    "language": "en",
+    "lang": "en",
+    "scrollWidth": 768,
+    "title": "AI Desk · Antillia North",
+    "width": 768,
+    "overflow": false
+  },
+  {
+    "project": "07-ai-desk",
+    "requestedWidth": 390,
+    "language": "en",
+    "lang": "en",
+    "scrollWidth": 375,
+    "title": "AI Desk · Antillia North",
+    "width": 375,
+    "overflow": false
+  }
+]

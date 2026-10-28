@@ -1,0 +1,474 @@
+{
+  "generated_at": "2026-10-28T21:15:59.504484+01:00",
+  "all_seven_relocation_passed": true,
+  "clean_install_verified": [
+    "01-demandcast",
+    "02-intentroute",
+    "03-terravision",
+    "04-machinesentinel",
+    "05-basketwise",
+    "06-reviewpulse",
+    "07-ai-desk"
+  ],
+  "all_seven_extracted_archive_smokes": true,
+  "archives_created": true,
+  "clean_install_evidence": {
+    "05-basketwise": {
+      "project": "05-basketwise",
+      "snapshot": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T193738111588Z\\05-basketwise",
+      "clean_install": true,
+      "environment_note": "Fresh isolated venv installed from pinned requirements",
+      "source_verification": {
+        "verified_against_recorded_hashes": [
+          "artifacts\\catalog.json",
+          "artifacts\\config.json",
+          "artifacts\\evaluation_cases.json",
+          "artifacts\\metrics.json",
+          "artifacts\\split_manifest.json",
+          "artifacts\\train_matrix.npz",
+          "artifacts\\weights.npz",
+          "data\\online-retail.zip"
+        ],
+        "note": "All packaged files additionally receive SHA256 entries; encoder weights without prior manifest are inventoried, not claimed independently authenticated."
+      },
+      "requirements_file": "requirements.lock",
+      "installation_log": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T193738111588Z\\05-basketwise-install.log",
+      "passed": true,
+      "summary": {
+        "cold_recommendations": 5,
+        "warm_recommendations": 5
+      },
+      "source_root": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T193738111588Z\\05-basketwise",
+      "original_project_source_imports": [],
+      "seconds": 157.5,
+      "evidence_file": "reports\\packaging\\portable-20261028T193738111588Z.json"
+    },
+    "01-demandcast": {
+      "project": "01-demandcast",
+      "snapshot": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T194409031576Z\\01-demandcast",
+      "clean_install": true,
+      "environment_note": "Fresh isolated venv installed from pinned requirements",
+      "source_verification": {
+        "verified_against_recorded_hashes": [
+          "artifacts\\boosting.joblib",
+          "artifacts\\config.json",
+          "artifacts\\gru.pt",
+          "artifacts\\metrics.json",
+          "artifacts\\scaler.json",
+          "artifacts\\splits.npz",
+          "artifacts\\split_manifest.json",
+          "artifacts\\training_history.json",
+          "data\\bike-sharing.zip"
+        ],
+        "note": "All packaged files additionally receive SHA256 entries; encoder weights without prior manifest are inventoried, not claimed independently authenticated."
+      },
+      "requirements_file": "requirements.lock",
+      "installation_log": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T194409031576Z\\01-demandcast-install.log",
+      "passed": true,
+      "summary": {
+        "horizon": 24,
+        "model": "seasonal"
+      },
+      "source_root": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T194409031576Z\\01-demandcast",
+      "original_project_source_imports": [],
+      "seconds": 231.44,
+      "evidence_file": "reports\\packaging\\portable-20261028T194409031576Z.json"
+    },
+    "02-intentroute": {
+      "project": "02-intentroute",
+      "snapshot": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T194409031576Z\\02-intentroute",
+      "clean_install": true,
+      "environment_note": "Fresh isolated venv installed from pinned requirements",
+      "source_verification": {
+        "verified_against_recorded_hashes": [
+          "artifacts\\embedding_mlp.joblib",
+          "artifacts\\manifest.json",
+          "artifacts\\tfidf.joblib",
+          "artifacts\\training-requirements.txt",
+          "artifacts\\training.json",
+          "artifacts\\encoder\\config.json",
+          "artifacts\\encoder\\config_sentence_transformers.json",
+          "artifacts\\encoder\\LICENSE.txt",
+          "artifacts\\encoder\\model.safetensors",
+          "artifacts\\encoder\\modules.json",
+          "artifacts\\encoder\\README.md",
+          "artifacts\\encoder\\sentence_bert_config.json",
+          "artifacts\\encoder\\special_tokens_map.json",
+          "artifacts\\encoder\\tokenizer.json",
+          "artifacts\\encoder\\tokenizer_config.json",
+          "artifacts\\encoder\\1_Pooling\\config.json",
+          "data\\polish_control.json",
+          "data\\sample.csv",
+          "data\\splits.json",
+          "data\\test.csv",
+          "data\\test_embeddings.npy",
+          "data\\train.csv",
+          "data\\train_embeddings.npy",
+          "data\\validation_embeddings.npy"
+        ],
+        "note": "All packaged files additionally receive SHA256 entries; encoder weights without prior manifest are inventoried, not claimed independently authenticated."
+      },
+      "requirements_file": "requirements.txt",
+      "installation_log": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T194409031576Z\\02-intentroute-install.log",
+      "passed": true,
+      "summary": {
+        "response_keys": [
+          "results",
+          "model",
+          "elapsed_ms",
+          "threshold"
+        ],
+        "real_prediction": {
+          "results": [
+            {
+              "label": "card_arrival",
+              "confidence": 0.893508791923523,
+              "uncertain": false,
+              "top": [
+                {
+                  "label": "card_arrival",
+                  "probability": 0.893508791923523
+                },
+                {
+                  "label": "card_delivery_estimate",
+                  "probability": 0.09337044507265091
+                },
+                {
+                  "label": "get_physical_card",
+                  "probability": 0.0038695866242051125
+                }
+              ]
+            }
+          ],
+          "model": "embedding_mlp",
+          "elapsed_ms": 21.1,
+          "threshold": 0.6500000000000001
+        }
+      },
+      "source_root": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T194409031576Z\\02-intentroute",
+      "original_project_source_imports": [],
+      "seconds": 282.02,
+      "evidence_file": "reports\\packaging\\portable-20261028T194409031576Z.json"
+    },
+    "03-terravision": {
+      "project": "03-terravision",
+      "snapshot": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T194409031576Z\\03-terravision",
+      "clean_install": true,
+      "environment_note": "Fresh isolated venv installed from pinned requirements",
+      "source_verification": {
+        "verified_against_recorded_hashes": [
+          "artifacts\\baseline.pkl",
+          "artifacts\\config.json",
+          "artifacts\\resnet18.pt",
+          "artifacts\\splits.json",
+          "data\\source.zip"
+        ],
+        "note": "All packaged files additionally receive SHA256 entries; encoder weights without prior manifest are inventoried, not claimed independently authenticated."
+      },
+      "requirements_file": "requirements.txt",
+      "installation_log": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T194409031576Z\\03-terravision-install.log",
+      "passed": true,
+      "summary": {
+        "class": "AnnualCrop",
+        "model": "resnet18"
+      },
+      "source_root": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T194409031576Z\\03-terravision",
+      "original_project_source_imports": [],
+      "seconds": 283.38,
+      "evidence_file": "reports\\packaging\\portable-20261028T194409031576Z.json"
+    },
+    "04-machinesentinel": {
+      "project": "04-machinesentinel",
+      "snapshot": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T194409031576Z\\04-machinesentinel",
+      "clean_install": true,
+      "environment_note": "Fresh isolated venv installed from pinned requirements",
+      "source_verification": {
+        "verified_against_recorded_hashes": [
+          "artifacts\\autoencoder.pt",
+          "artifacts\\config.json",
+          "artifacts\\isolationforest.pkl",
+          "artifacts\\scaler.pkl",
+          "artifacts\\splits.json",
+          "data\\source.zip"
+        ],
+        "note": "All packaged files additionally receive SHA256 entries; encoder weights without prior manifest are inventoried, not claimed independently authenticated."
+      },
+      "requirements_file": "requirements.txt",
+      "installation_log": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T194409031576Z\\04-machinesentinel-install.log",
+      "passed": true,
+      "summary": {
+        "score": 0.13335142098117772,
+        "model": "autoencoder"
+      },
+      "source_root": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T194409031576Z\\04-machinesentinel",
+      "original_project_source_imports": [],
+      "seconds": 239.65,
+      "evidence_file": "reports\\packaging\\portable-20261028T194409031576Z.json"
+    },
+    "06-reviewpulse": {
+      "project": "06-reviewpulse",
+      "snapshot": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T194409031576Z\\06-reviewpulse",
+      "clean_install": true,
+      "environment_note": "Fresh isolated venv installed from pinned requirements",
+      "source_verification": {
+        "verified_against_recorded_hashes": [
+          "artifacts\\embedding_mlp.joblib",
+          "artifacts\\manifest.json",
+          "artifacts\\tfidf.joblib",
+          "artifacts\\training-requirements.txt",
+          "artifacts\\training.json",
+          "artifacts\\encoder\\config.json",
+          "artifacts\\encoder\\config_sentence_transformers.json",
+          "artifacts\\encoder\\LICENSE.txt",
+          "artifacts\\encoder\\model.safetensors",
+          "artifacts\\encoder\\modules.json",
+          "artifacts\\encoder\\README.md",
+          "artifacts\\encoder\\sentence_bert_config.json",
+          "artifacts\\encoder\\special_tokens_map.json",
+          "artifacts\\encoder\\tokenizer.json",
+          "artifacts\\encoder\\tokenizer_config.json",
+          "artifacts\\encoder\\1_Pooling\\config.json",
+          "data\\polish_control.json",
+          "data\\sample.csv",
+          "data\\sentiment.zip",
+          "data\\splits.json",
+          "data\\test_embeddings.npy",
+          "data\\train_embeddings.npy",
+          "data\\validation_embeddings.npy"
+        ],
+        "note": "All packaged files additionally receive SHA256 entries; encoder weights without prior manifest are inventoried, not claimed independently authenticated."
+      },
+      "requirements_file": "requirements.txt",
+      "installation_log": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T194409031576Z\\06-reviewpulse-install.log",
+      "passed": true,
+      "summary": {
+        "response_keys": [
+          "results",
+          "model",
+          "elapsed_ms",
+          "threshold"
+        ],
+        "real_prediction": {
+          "results": [
+            {
+              "label": "positive",
+              "confidence": 0.9999963045120239,
+              "uncertain": false,
+              "top": [
+                {
+                  "label": "positive",
+                  "probability": 0.9999963045120239
+                },
+                {
+                  "label": "negative",
+                  "probability": 3.6954879760742188e-06
+                }
+              ]
+            }
+          ],
+          "model": "embedding_mlp",
+          "elapsed_ms": 24.12,
+          "threshold": 0.8500000000000003
+        }
+      },
+      "source_root": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T194409031576Z\\06-reviewpulse",
+      "original_project_source_imports": [],
+      "seconds": 304.51,
+      "evidence_file": "reports\\packaging\\portable-20261028T194409031576Z.json"
+    },
+    "07-ai-desk": {
+      "project": "07-ai-desk",
+      "snapshot": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T194409031576Z\\07-ai-desk",
+      "clean_install": true,
+      "environment_note": "Fresh isolated venv installed from pinned requirements",
+      "source_verification": {
+        "verified_against_recorded_hashes": [
+          "artifacts\\encoder\\config.json",
+          "artifacts\\encoder\\config_sentence_transformers.json",
+          "artifacts\\encoder\\LICENSE",
+          "artifacts\\encoder\\model.safetensors",
+          "artifacts\\encoder\\modules.json",
+          "artifacts\\encoder\\README.md",
+          "artifacts\\encoder\\sentence_bert_config.json",
+          "artifacts\\encoder\\special_tokens_map.json",
+          "artifacts\\encoder\\tokenizer.json",
+          "artifacts\\encoder\\tokenizer_config.json",
+          "artifacts\\encoder\\1_Pooling\\config.json"
+        ],
+        "note": "All packaged files additionally receive SHA256 entries; encoder weights without prior manifest are inventoried, not claimed independently authenticated."
+      },
+      "requirements_file": "requirements-runtime.txt",
+      "installation_log": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T194409031576Z\\07-ai-desk-install.log",
+      "passed": true,
+      "seed_documents": 40,
+      "visible_documents": 36,
+      "retrieval_sources": 2,
+      "fresh_seed_authentication": true,
+      "llm_generation_tested": false,
+      "seconds": 375.51,
+      "evidence_file": "reports\\packaging\\portable-20261028T194409031576Z.json"
+    }
+  },
+  "archive_evidence": {
+    "04-machinesentinel": {
+      "project": "04-machinesentinel",
+      "snapshot": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T200652697909Z\\04-machinesentinel",
+      "clean_install": false,
+      "environment_note": "Original per-project venv reused; validates relocated source/model/data only. NOT clean-install verification.",
+      "passed": true,
+      "summary": {
+        "score": 0.13335142098117772,
+        "model": "autoencoder"
+      },
+      "source_root": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T200652697909Z\\04-machinesentinel",
+      "original_project_source_imports": [],
+      "seconds": 10.81,
+      "evidence_file": "reports\\packaging\\portable-20261028T200652697909Z.json"
+    },
+    "03-terravision": {
+      "project": "03-terravision",
+      "snapshot": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T200652697909Z\\03-terravision",
+      "clean_install": false,
+      "environment_note": "Original per-project venv reused; validates relocated source/model/data only. NOT clean-install verification.",
+      "passed": true,
+      "summary": {
+        "class": "AnnualCrop",
+        "model": "resnet18"
+      },
+      "source_root": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T200652697909Z\\03-terravision",
+      "original_project_source_imports": [],
+      "seconds": 310.4,
+      "evidence_file": "reports\\packaging\\portable-20261028T200652697909Z.json"
+    },
+    "02-intentroute": {
+      "project": "02-intentroute",
+      "snapshot": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T200652697909Z\\02-intentroute",
+      "clean_install": false,
+      "environment_note": "Original per-project venv reused; validates relocated source/model/data only. NOT clean-install verification.",
+      "passed": true,
+      "summary": {
+        "response_keys": [
+          "results",
+          "model",
+          "elapsed_ms",
+          "threshold"
+        ],
+        "real_prediction": {
+          "results": [
+            {
+              "label": "card_arrival",
+              "confidence": 0.893508791923523,
+              "uncertain": false,
+              "top": [
+                {
+                  "label": "card_arrival",
+                  "probability": 0.893508791923523
+                },
+                {
+                  "label": "card_delivery_estimate",
+                  "probability": 0.09337044507265091
+                },
+                {
+                  "label": "get_physical_card",
+                  "probability": 0.0038695866242051125
+                }
+              ]
+            }
+          ],
+          "model": "embedding_mlp",
+          "elapsed_ms": 36.79,
+          "threshold": 0.6500000000000001
+        }
+      },
+      "source_root": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T200652697909Z\\02-intentroute",
+      "original_project_source_imports": [],
+      "seconds": 31.76,
+      "evidence_file": "reports\\packaging\\portable-20261028T200652697909Z.json"
+    },
+    "06-reviewpulse": {
+      "project": "06-reviewpulse",
+      "snapshot": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T200652697909Z\\06-reviewpulse",
+      "clean_install": false,
+      "environment_note": "Original per-project venv reused; validates relocated source/model/data only. NOT clean-install verification.",
+      "passed": true,
+      "summary": {
+        "response_keys": [
+          "results",
+          "model",
+          "elapsed_ms",
+          "threshold"
+        ],
+        "real_prediction": {
+          "results": [
+            {
+              "label": "positive",
+              "confidence": 0.9999963045120239,
+              "uncertain": false,
+              "top": [
+                {
+                  "label": "positive",
+                  "probability": 0.9999963045120239
+                },
+                {
+                  "label": "negative",
+                  "probability": 3.6954879760742188e-06
+                }
+              ]
+            }
+          ],
+          "model": "embedding_mlp",
+          "elapsed_ms": 77.26,
+          "threshold": 0.8500000000000003
+        }
+      },
+      "source_root": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T200652697909Z\\06-reviewpulse",
+      "original_project_source_imports": [],
+      "seconds": 49.65,
+      "evidence_file": "reports\\packaging\\portable-20261028T200652697909Z.json"
+    },
+    "07-ai-desk": {
+      "project": "07-ai-desk",
+      "snapshot": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T200652697909Z\\07-ai-desk",
+      "clean_install": false,
+      "environment_note": "Original per-project venv reused; validates relocated source/model/data only. NOT clean-install verification.",
+      "passed": true,
+      "seed_documents": 40,
+      "visible_documents": 36,
+      "retrieval_sources": 2,
+      "fresh_seed_authentication": true,
+      "llm_generation_tested": false,
+      "seconds": 58.8,
+      "evidence_file": "reports\\packaging\\portable-20261028T200652697909Z.json"
+    },
+    "05-basketwise": {
+      "project": "05-basketwise",
+      "snapshot": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T200652697909Z\\05-basketwise",
+      "clean_install": false,
+      "environment_note": "Original per-project venv reused; validates relocated source/model/data only. NOT clean-install verification.",
+      "passed": true,
+      "summary": {
+        "cold_recommendations": 5,
+        "warm_recommendations": 5
+      },
+      "source_root": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T200652697909Z\\05-basketwise",
+      "original_project_source_imports": [],
+      "seconds": 7.03,
+      "evidence_file": "reports\\packaging\\portable-20261028T200652697909Z.json"
+    },
+    "01-demandcast": {
+      "project": "01-demandcast",
+      "snapshot": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T200652697909Z\\01-demandcast",
+      "clean_install": false,
+      "environment_note": "Original per-project venv reused; validates relocated source/model/data only. NOT clean-install verification.",
+      "passed": true,
+      "summary": {
+        "horizon": 24,
+        "model": "seasonal"
+      },
+      "source_root": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T200652697909Z\\01-demandcast",
+      "original_project_source_imports": [],
+      "seconds": 13.04,
+      "evidence_file": "reports\\packaging\\portable-20261028T200652697909Z.json"
+    }
+  }
+}

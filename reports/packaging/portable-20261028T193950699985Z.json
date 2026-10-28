@@ -1,0 +1,160 @@
+[
+  {
+    "project": "02-intentroute",
+    "snapshot": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T193950699985Z\\02-intentroute",
+    "clean_install": false,
+    "environment_note": "Original per-project venv reused; validates relocated source/model/data only. NOT clean-install verification.",
+    "source_verification": {
+      "verified_against_recorded_hashes": [
+        "artifacts\\embedding_mlp.joblib",
+        "artifacts\\manifest.json",
+        "artifacts\\tfidf.joblib",
+        "artifacts\\training-requirements.txt",
+        "artifacts\\training.json",
+        "artifacts\\encoder\\config.json",
+        "artifacts\\encoder\\config_sentence_transformers.json",
+        "artifacts\\encoder\\LICENSE.txt",
+        "artifacts\\encoder\\model.safetensors",
+        "artifacts\\encoder\\modules.json",
+        "artifacts\\encoder\\README.md",
+        "artifacts\\encoder\\sentence_bert_config.json",
+        "artifacts\\encoder\\special_tokens_map.json",
+        "artifacts\\encoder\\tokenizer.json",
+        "artifacts\\encoder\\tokenizer_config.json",
+        "artifacts\\encoder\\1_Pooling\\config.json",
+        "data\\polish_control.json",
+        "data\\sample.csv",
+        "data\\splits.json",
+        "data\\test.csv",
+        "data\\test_embeddings.npy",
+        "data\\train.csv",
+        "data\\train_embeddings.npy",
+        "data\\validation_embeddings.npy"
+      ],
+      "note": "All packaged files additionally receive SHA256 entries; encoder weights without prior manifest are inventoried, not claimed independently authenticated."
+    },
+    "passed": true,
+    "summary": {
+      "response_keys": [
+        "results",
+        "model",
+        "elapsed_ms",
+        "threshold"
+      ],
+      "real_prediction": {
+        "results": [
+          {
+            "label": "card_arrival",
+            "confidence": 0.893508791923523,
+            "uncertain": false,
+            "top": [
+              {
+                "label": "card_arrival",
+                "probability": 0.893508791923523
+              },
+              {
+                "label": "card_delivery_estimate",
+                "probability": 0.09337044507265091
+              },
+              {
+                "label": "get_physical_card",
+                "probability": 0.0038695866242051125
+              }
+            ]
+          }
+        ],
+        "model": "embedding_mlp",
+        "elapsed_ms": 26.19,
+        "threshold": 0.6500000000000001
+      }
+    },
+    "source_root": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T193950699985Z\\02-intentroute",
+    "original_project_source_imports": [],
+    "seconds": 28.49
+  },
+  {
+    "project": "06-reviewpulse",
+    "snapshot": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T193950699985Z\\06-reviewpulse",
+    "clean_install": false,
+    "environment_note": "Original per-project venv reused; validates relocated source/model/data only. NOT clean-install verification.",
+    "source_verification": {
+      "verified_against_recorded_hashes": [
+        "artifacts\\embedding_mlp.joblib",
+        "artifacts\\manifest.json",
+        "artifacts\\tfidf.joblib",
+        "artifacts\\training-requirements.txt",
+        "artifacts\\training.json",
+        "artifacts\\encoder\\config.json",
+        "artifacts\\encoder\\config_sentence_transformers.json",
+        "artifacts\\encoder\\LICENSE.txt",
+        "artifacts\\encoder\\model.safetensors",
+        "artifacts\\encoder\\modules.json",
+        "artifacts\\encoder\\README.md",
+        "artifacts\\encoder\\sentence_bert_config.json",
+        "artifacts\\encoder\\special_tokens_map.json",
+        "artifacts\\encoder\\tokenizer.json",
+        "artifacts\\encoder\\tokenizer_config.json",
+        "artifacts\\encoder\\1_Pooling\\config.json",
+        "data\\polish_control.json",
+        "data\\sample.csv",
+        "data\\sentiment.zip",
+        "data\\splits.json",
+        "data\\test_embeddings.npy",
+        "data\\train_embeddings.npy",
+        "data\\validation_embeddings.npy"
+      ],
+      "note": "All packaged files additionally receive SHA256 entries; encoder weights without prior manifest are inventoried, not claimed independently authenticated."
+    },
+    "passed": true,
+    "summary": {
+      "response_keys": [
+        "results",
+        "model",
+        "elapsed_ms",
+        "threshold"
+      ],
+      "real_prediction": {
+        "results": [
+          {
+            "label": "positive",
+            "confidence": 0.9999963045120239,
+            "uncertain": false,
+            "top": [
+              {
+                "label": "positive",
+                "probability": 0.9999963045120239
+              },
+              {
+                "label": "negative",
+                "probability": 3.6954879760742188e-06
+              }
+            ]
+          }
+        ],
+        "model": "embedding_mlp",
+        "elapsed_ms": 21.62,
+        "threshold": 0.8500000000000003
+      }
+    },
+    "source_root": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T193950699985Z\\06-reviewpulse",
+    "original_project_source_imports": [],
+    "seconds": 22.2
+  },
+  {
+    "project": "07-ai-desk",
+    "snapshot": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T193950699985Z\\07-ai-desk",
+    "clean_install": false,
+    "environment_note": "Original per-project venv reused; validates relocated source/model/data only. NOT clean-install verification.",
+    "source_verification": {
+      "verified_against_recorded_hashes": [],
+      "note": "All packaged files additionally receive SHA256 entries; encoder weights without prior manifest are inventoried, not claimed independently authenticated."
+    },
+    "passed": true,
+    "seed_documents": 40,
+    "visible_documents": 36,
+    "retrieval_sources": 2,
+    "fresh_seed_authentication": true,
+    "llm_generation_tested": false,
+    "seconds": 45.39
+  }
+]

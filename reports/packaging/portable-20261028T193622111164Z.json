@@ -1,0 +1,19 @@
+[
+  {
+    "project": "07-ai-desk",
+    "snapshot": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T193622111164Z\\07-ai-desk",
+    "clean_install": false,
+    "environment_note": "Original per-project venv reused; validates relocated source/model/data only. NOT clean-install verification.",
+    "source_verification": {
+      "verified_against_recorded_hashes": [],
+      "note": "All packaged files additionally receive SHA256 entries; encoder weights without prior manifest are inventoried, not claimed independently authenticated."
+    },
+    "passed": true,
+    "seed_documents": 40,
+    "visible_documents": 36,
+    "retrieval_sources": 2,
+    "fresh_seed_authentication": true,
+    "llm_generation_tested": false,
+    "seconds": 58.67
+  }
+]

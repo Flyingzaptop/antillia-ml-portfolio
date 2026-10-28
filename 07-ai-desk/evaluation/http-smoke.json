@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "seconds": 7.739,
+  "answer": "You must submit your annual leave requests at least **10 working days** before departure [46]. This requirement is also stated in the Polish version of the policy, which specifies \"co najmniej 10 dni roboczych przed wyjazdem\" (at least 10 working days before departure) [47].",
+  "events": [
+    "sources",
+    "token",
+    "token",
+    "token",
+    "token",
+    "token",
+    "token",
+    "token",
+    "token",
+    "token",
+    "done"
+  ],
+  "checks": [
+    "session",
+    "CSRF login",
+    "create own chat",
+    "real Ollama terminal SSE",
+    "delete own chat"
+  ]
+}

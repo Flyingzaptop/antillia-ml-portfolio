@@ -1,0 +1,9 @@
+split,model,metric,value
+test,autoencoder,pr_auc,0.2664840042472951
+test,autoencoder,roc_auc,0.7767899430303523
+test,autoencoder,precision,0.2459016393442623
+test,autoencoder,recall,0.29411764705882354
+test,isolationforest,pr_auc,0.15634877429641472
+test,isolationforest,roc_auc,0.8653703027104561
+test,isolationforest,precision,0.13768115942028986
+test,isolationforest,recall,0.37254901960784315

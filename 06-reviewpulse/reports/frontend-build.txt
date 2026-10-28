@@ -1,0 +1,14 @@
+
+> 06-reviewpulse@1.0.0 build
+> tsc && vite build
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 1566 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.36 kB │ gzip:  0.27 kB
+dist/assets/index-L3u_cziU.css   13.25 kB │ gzip:  3.69 kB
+dist/assets/index-Dc9KFxch.js   203.50 kB │ gzip: 66.03 kB
+
+✓ built in 646ms

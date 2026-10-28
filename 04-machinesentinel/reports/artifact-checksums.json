@@ -1,0 +1,7 @@
+{
+  "artifacts/autoencoder.pt": "57f7fced10d001426d03884001c9eb3faae5471a71b122a46e2e28ff019b9087",
+  "artifacts/config.json": "15d287baa441c9bf3c24ead8f9786a1274858b9f3de09f07c69a69006e148b8d",
+  "artifacts/isolationforest.pkl": "dfbdda0ce3d241f2c019de0a2751b5d1b2cd8b74a633ac32fee9add9a058b7eb",
+  "artifacts/scaler.pkl": "8c050ba143f954ab84a08795a0e1b97688a5f828980cce7a829100fa07e8a26f",
+  "artifacts/splits.json": "173d6306b7ef5ba908babd185ba0437aa9e2fced7ecd4a8746c204729afdcb5e"
+}

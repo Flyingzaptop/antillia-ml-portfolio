@@ -1,0 +1,10 @@
+Requirement already satisfied: setuptools in c:\users\r3d_flzp\desktop\portfolio\02-intentroute\.venv\lib\site-packages (78.1.0)
+Collecting setuptools
+  Using cached setuptools-84.2.1-py3-none-any.whl.metadata (6.6 kB)
+Using cached setuptools-84.2.1-py3-none-any.whl (876 kB)
+Installing collected packages: setuptools
+  Attempting uninstall: setuptools
+    Found existing installation: setuptools 78.1.0
+    Uninstalling setuptools-78.1.0:
+      Successfully uninstalled setuptools-78.1.0
+Successfully installed setuptools-84.2.1

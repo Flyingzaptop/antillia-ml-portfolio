@@ -1,0 +1,13 @@
+model,split,metric,value
+tfidf,validation,accuracy,0.8238993710691824
+tfidf,validation,macro_f1,0.8238924050632912
+tfidf,validation,pr_auc,0.9066101673291647
+tfidf,test,accuracy,0.8187919463087249
+tfidf,test,macro_f1,0.8187837837837837
+tfidf,test,pr_auc,0.9034622843327177
+embedding_mlp,validation,accuracy,0.9140461215932913
+embedding_mlp,validation,macro_f1,0.9140461215932913
+embedding_mlp,validation,pr_auc,0.9753607995735989
+embedding_mlp,test,accuracy,0.9177852348993288
+embedding_mlp,test,macro_f1,0.917783151795995
+embedding_mlp,test,pr_auc,0.9627982845260662

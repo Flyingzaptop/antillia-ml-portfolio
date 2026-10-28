@@ -1,0 +1,31 @@
+[
+  {
+    "project": "05-basketwise",
+    "snapshot": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T193738111588Z\\05-basketwise",
+    "clean_install": true,
+    "environment_note": "Fresh isolated venv installed from pinned requirements",
+    "source_verification": {
+      "verified_against_recorded_hashes": [
+        "artifacts\\catalog.json",
+        "artifacts\\config.json",
+        "artifacts\\evaluation_cases.json",
+        "artifacts\\metrics.json",
+        "artifacts\\split_manifest.json",
+        "artifacts\\train_matrix.npz",
+        "artifacts\\weights.npz",
+        "data\\online-retail.zip"
+      ],
+      "note": "All packaged files additionally receive SHA256 entries; encoder weights without prior manifest are inventoried, not claimed independently authenticated."
+    },
+    "requirements_file": "requirements.lock",
+    "installation_log": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T193738111588Z\\05-basketwise-install.log",
+    "passed": true,
+    "summary": {
+      "cold_recommendations": 5,
+      "warm_recommendations": 5
+    },
+    "source_root": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\.runtime\\portable-validation\\20261028T193738111588Z\\05-basketwise",
+    "original_project_source_imports": [],
+    "seconds": 157.5
+  }
+]

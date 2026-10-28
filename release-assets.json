@@ -1,0 +1,40 @@
+{
+  "release": "v1.0.0",
+  "projects": [
+    {
+      "project": "01-demandcast",
+      "sha256": "8a804756d72a5292a31133a1adc83ba7fc2122b9f63739d50c947a6f85058dcc",
+      "url": "https://github.com/Flyingzaptop/antillia-ml-portfolio/releases/download/v1.0.0/01-demandcast.zip"
+    },
+    {
+      "project": "02-intentroute",
+      "sha256": "48e60a640392475f6be715090faa9111d69b53d7c7226c2b422fbd9b71827e6c",
+      "url": "https://github.com/Flyingzaptop/antillia-ml-portfolio/releases/download/v1.0.0/02-intentroute.zip"
+    },
+    {
+      "project": "03-terravision",
+      "sha256": "0fa03977ab75f4131475ce29b5bac23658088538142df32d5143e15fd7e1f579",
+      "url": "https://github.com/Flyingzaptop/antillia-ml-portfolio/releases/download/v1.0.0/03-terravision.zip"
+    },
+    {
+      "project": "04-machinesentinel",
+      "sha256": "72aea92c17aa8c6997879e15d93b8ab7315b7efc6688e0404e74d9ff41659dcc",
+      "url": "https://github.com/Flyingzaptop/antillia-ml-portfolio/releases/download/v1.0.0/04-machinesentinel.zip"
+    },
+    {
+      "project": "05-basketwise",
+      "sha256": "25858a7315227327778f5d23c49276b2a869f607fa694120df45d22f69f2ea7a",
+      "url": "https://github.com/Flyingzaptop/antillia-ml-portfolio/releases/download/v1.0.0/05-basketwise.zip"
+    },
+    {
+      "project": "06-reviewpulse",
+      "sha256": "239e9c389a760e380399a77389c9a65c336525b248b7b15dd02c9fd32f04ca8e",
+      "url": "https://github.com/Flyingzaptop/antillia-ml-portfolio/releases/download/v1.0.0/06-reviewpulse.zip"
+    },
+    {
+      "project": "07-ai-desk",
+      "sha256": "a5366cb64c791bbe72e20ee3a35923a19c19b36e43532542d01034d0f1552f8d",
+      "url": "https://github.com/Flyingzaptop/antillia-ml-portfolio/releases/download/v1.0.0/07-ai-desk.zip"
+    }
+  ]
+}

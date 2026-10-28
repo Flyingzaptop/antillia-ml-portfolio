@@ -1,0 +1,166 @@
+{
+  "verified_at": "2026-10-28T21:15:59.504484+01:00",
+  "status": "local_demonstrators_verified_and_packaged",
+  "scope": "Windows/Python3.12; CPU ML inference, local Ollama generation; no public deployment",
+  "all_seven_clean_installations": true,
+  "all_seven_extracted_archive_smokes": true,
+  "backend_tests_total": 84,
+  "browser_viewports_and_languages_total": 42,
+  "projects": [
+    {
+      "project": "01-demandcast",
+      "url": "http://127.0.0.1:8101",
+      "clean_install_passed": true,
+      "clean_install_evidence": "reports\\packaging\\portable-20261028T194409031576Z.json",
+      "extracted_zip_smoke_passed": true,
+      "extracted_zip_evidence": "reports\\packaging\\portable-20261028T200652697909Z.json",
+      "backend_tests_passed": 7,
+      "responsive_checks": 6,
+      "npm_known_vulnerabilities": 0,
+      "python_known_vulnerabilities": 0,
+      "readiness": {
+        "status": "ok",
+        "project": "demandcast",
+        "models_loaded": true
+      },
+      "archive": "dist\\final-20261028\\01-demandcast.zip",
+      "archive_bytes": 1362206,
+      "sha256": "8a804756d72a5292a31133a1adc83ba7fc2122b9f63739d50c947a6f85058dcc"
+    },
+    {
+      "project": "02-intentroute",
+      "url": "http://127.0.0.1:8102",
+      "clean_install_passed": true,
+      "clean_install_evidence": "reports\\packaging\\portable-20261028T194409031576Z.json",
+      "extracted_zip_smoke_passed": true,
+      "extracted_zip_evidence": "reports\\packaging\\portable-20261028T200652697909Z.json",
+      "backend_tests_passed": 20,
+      "responsive_checks": 6,
+      "npm_known_vulnerabilities": 0,
+      "python_known_vulnerabilities": 0,
+      "readiness": {
+        "status": "ready",
+        "project": "IntentRoute"
+      },
+      "archive": "dist\\final-20261028\\02-intentroute.zip",
+      "archive_bytes": 462348665,
+      "sha256": "48e60a640392475f6be715090faa9111d69b53d7c7226c2b422fbd9b71827e6c"
+    },
+    {
+      "project": "03-terravision",
+      "url": "http://127.0.0.1:8103",
+      "clean_install_passed": true,
+      "clean_install_evidence": "reports\\packaging\\portable-20261028T194409031576Z.json",
+      "extracted_zip_smoke_passed": true,
+      "extracted_zip_evidence": "reports\\packaging\\portable-20261028T200652697909Z.json",
+      "backend_tests_passed": 4,
+      "responsive_checks": 6,
+      "npm_known_vulnerabilities": 0,
+      "python_known_vulnerabilities": 0,
+      "readiness": {
+        "status": "ok",
+        "project": "TerraVision",
+        "model_loaded": true
+      },
+      "archive": "dist\\final-20261028\\03-terravision.zip",
+      "archive_bytes": 265085015,
+      "sha256": "0fa03977ab75f4131475ce29b5bac23658088538142df32d5143e15fd7e1f579"
+    },
+    {
+      "project": "04-machinesentinel",
+      "url": "http://127.0.0.1:8104",
+      "clean_install_passed": true,
+      "clean_install_evidence": "reports\\packaging\\portable-20261028T194409031576Z.json",
+      "extracted_zip_smoke_passed": true,
+      "extracted_zip_evidence": "reports\\packaging\\portable-20261028T200652697909Z.json",
+      "backend_tests_passed": 5,
+      "responsive_checks": 6,
+      "npm_known_vulnerabilities": 0,
+      "python_known_vulnerabilities": 0,
+      "readiness": {
+        "status": "ok",
+        "project": "MachineSentinel",
+        "model_loaded": true
+      },
+      "archive": "dist\\final-20261028\\04-machinesentinel.zip",
+      "archive_bytes": 2122746,
+      "sha256": "72aea92c17aa8c6997879e15d93b8ab7315b7efc6688e0404e74d9ff41659dcc"
+    },
+    {
+      "project": "05-basketwise",
+      "url": "http://127.0.0.1:8105",
+      "clean_install_passed": true,
+      "clean_install_evidence": "reports\\packaging\\portable-20261028T193738111588Z.json",
+      "extracted_zip_smoke_passed": true,
+      "extracted_zip_evidence": "reports\\packaging\\portable-20261028T200652697909Z.json",
+      "backend_tests_passed": 7,
+      "responsive_checks": 6,
+      "npm_known_vulnerabilities": 0,
+      "python_known_vulnerabilities": 0,
+      "readiness": {
+        "status": "ok",
+        "project": "basketwise",
+        "models_loaded": true
+      },
+      "archive": "dist\\final-20261028\\05-basketwise.zip",
+      "archive_bytes": 29420452,
+      "sha256": "25858a7315227327778f5d23c49276b2a869f607fa694120df45d22f69f2ea7a"
+    },
+    {
+      "project": "06-reviewpulse",
+      "url": "http://127.0.0.1:8106",
+      "clean_install_passed": true,
+      "clean_install_evidence": "reports\\packaging\\portable-20261028T194409031576Z.json",
+      "extracted_zip_smoke_passed": true,
+      "extracted_zip_evidence": "reports\\packaging\\portable-20261028T200652697909Z.json",
+      "backend_tests_passed": 20,
+      "responsive_checks": 6,
+      "npm_known_vulnerabilities": 0,
+      "python_known_vulnerabilities": 0,
+      "readiness": {
+        "status": "ready",
+        "project": "ReviewPulse"
+      },
+      "archive": "dist\\final-20261028\\06-reviewpulse.zip",
+      "archive_bytes": 441142873,
+      "sha256": "239e9c389a760e380399a77389c9a65c336525b248b7b15dd02c9fd32f04ca8e"
+    },
+    {
+      "project": "07-ai-desk",
+      "url": "http://127.0.0.1:8107",
+      "clean_install_passed": true,
+      "clean_install_evidence": "reports\\packaging\\portable-20261028T194409031576Z.json",
+      "extracted_zip_smoke_passed": true,
+      "extracted_zip_evidence": "reports\\packaging\\portable-20261028T200652697909Z.json",
+      "backend_tests_passed": 21,
+      "responsive_checks": 6,
+      "npm_known_vulnerabilities": 0,
+      "python_known_vulnerabilities": 0,
+      "readiness": {
+        "status": "ready",
+        "service": "ai-desk"
+      },
+      "archive": "dist\\final-20261028\\07-ai-desk.zip",
+      "archive_bytes": 436102262,
+      "sha256": "a5366cb64c791bbe72e20ee3a35923a19c19b36e43532542d01034d0f1552f8d"
+    }
+  ],
+  "assistant": {
+    "live_scenarios": 70,
+    "completed_transport": 70,
+    "retrieval_checks_passed": 67,
+    "forbidden_text_checks_passed": 20,
+    "forbidden_text_cases": 20,
+    "semantic_citation_imprecision_observed": true,
+    "limitations": "See README.md and 07-ai-desk/evaluation/qualitative-review.md; not independent certification."
+  },
+  "remaining_limits": [
+    "Model quality differs by task; MachineSentinel recall29.4%, DemandCast seasonal baseline wins.",
+    "Small authored Polish NLP controls are not independent benchmarks.",
+    "AI retrieval67/70; individual citations can be semantically imprecise.",
+    "No conversational context passed to LLM; history stored for browsing only.",
+    "Buffered SSE after citation checks.",
+    "First installation needs package network access and separate Ollama model setup.",
+    "No external security certification, load testing, physical mobile testing or public hosting."
+  ]
+}

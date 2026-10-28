@@ -1,0 +1,251 @@
+{
+  "project": "ReviewPulse",
+  "selected_model": "embedding_mlp",
+  "threshold": 0.8500000000000003,
+  "split_counts": {
+    "train": 1906,
+    "validation": 477,
+    "test": 596
+  },
+  "models": {
+    "tfidf": {
+      "validation": {
+        "accuracy": 0.8238993710691824,
+        "macro_f1": 0.8238924050632912,
+        "pr_auc": 0.9066101673291647
+      },
+      "test": {
+        "accuracy": 0.8187919463087249,
+        "macro_f1": 0.8187837837837837,
+        "pr_auc": 0.9034622843327177
+      }
+    },
+    "embedding_mlp": {
+      "validation": {
+        "accuracy": 0.9140461215932913,
+        "macro_f1": 0.9140461215932913,
+        "pr_auc": 0.9753607995735989
+      },
+      "test": {
+        "accuracy": 0.9177852348993288,
+        "macro_f1": 0.917783151795995,
+        "pr_auc": 0.9627982845260662
+      }
+    }
+  },
+  "polish_control": {
+    "n": 16,
+    "description": "Author-written small diagnostic only; not an independent Polish benchmark. Not used for selection.",
+    "models": {
+      "tfidf": {
+        "accuracy": 0.5,
+        "macro_f1": 0.4181818181818182,
+        "pr_auc": 0.475
+      },
+      "embedding_mlp": {
+        "accuracy": 0.9375,
+        "macro_f1": 0.9372549019607843,
+        "pr_auc": 0.975
+      }
+    }
+  },
+  "classes": [
+    "negative",
+    "positive"
+  ],
+  "confusion_matrix": [
+    [
+      272,
+      26
+    ],
+    [
+      23,
+      275
+    ]
+  ],
+  "classification_report": {
+    "negative": {
+      "precision": 0.9220338983050848,
+      "recall": 0.912751677852349,
+      "f1-score": 0.9173693086003373,
+      "support": 298.0
+    },
+    "positive": {
+      "precision": 0.9136212624584718,
+      "recall": 0.9228187919463087,
+      "f1-score": 0.9181969949916527,
+      "support": 298.0
+    },
+    "accuracy": 0.9177852348993288,
+    "macro avg": {
+      "precision": 0.9178275803817783,
+      "recall": 0.9177852348993288,
+      "f1-score": 0.917783151795995,
+      "support": 596.0
+    },
+    "weighted avg": {
+      "precision": 0.9178275803817781,
+      "recall": 0.9177852348993288,
+      "f1-score": 0.9177831517959951,
+      "support": 596.0
+    }
+  },
+  "errors": [
+    {
+      "text": "It felt too light and \"tinny.\".",
+      "actual": "negative",
+      "predicted": "positive"
+    },
+    {
+      "text": "A FLY was in my apple juice.. A FLY!!!!!!!!",
+      "actual": "negative",
+      "predicted": "positive"
+    },
+    {
+      "text": "Still Waiting...... I'm sure this item would work well.. if I ever recieve it!",
+      "actual": "negative",
+      "predicted": "positive"
+    },
+    {
+      "text": "Food was so gooodd.",
+      "actual": "positive",
+      "predicted": "negative"
+    },
+    {
+      "text": "The bose noise cancelling is amazing, which is very important for a NYC commuter.",
+      "actual": "positive",
+      "predicted": "negative"
+    },
+    {
+      "text": "This second appearance of Mickey Mouse (following the silent PLANE CRAZY earlier that year) is probably his most famous film--mostly because it was so ground-breaking.",
+      "actual": "positive",
+      "predicted": "negative"
+    },
+    {
+      "text": "First time going but I think I will quickly become a regular.",
+      "actual": "positive",
+      "predicted": "negative"
+    },
+    {
+      "text": "Still, it was the SETS that got a big \"10\" on my \"oy-vey\" scale.",
+      "actual": "positive",
+      "predicted": "negative"
+    },
+    {
+      "text": "Her lines seem to have been WRITTEN by a fifteen year old, though they are trying oh so, so hard to sound like how a fifteen year old would really, um, you know, well... talk.",
+      "actual": "negative",
+      "predicted": "positive"
+    },
+    {
+      "text": "This product is very High quality Chinese CRAP!!!!!!",
+      "actual": "negative",
+      "predicted": "positive"
+    },
+    {
+      "text": "It crackles with an unpredictable, youthful energy - but honestly, i found it hard to follow and concentrate on it meanders so badly.",
+      "actual": "negative",
+      "predicted": "positive"
+    },
+    {
+      "text": "These are the central themes of the film and they are handled ineptly, stereotypically and with no depth of imagination.",
+      "actual": "negative",
+      "predicted": "positive"
+    },
+    {
+      "text": "It was so BORING!",
+      "actual": "negative",
+      "predicted": "positive"
+    },
+    {
+      "text": "It definitely was not as good as my S11.",
+      "actual": "positive",
+      "predicted": "negative"
+    },
+    {
+      "text": "The story line is totally predictable.",
+      "actual": "negative",
+      "predicted": "positive"
+    },
+    {
+      "text": "But the duet between the astronaut and his doctor at the beginning of the movie is a perfect exchange if one considers that this movie was made well into the Cold War and the astronaut's biggest fear is that he has crashed in the USSR.",
+      "actual": "positive",
+      "predicted": "negative"
+    },
+    {
+      "text": "Full of unconvincing cardboard characters it is blandly written by Edward Chodorov, who also produced, and is surprisingly directed by Jean Negulesco from whom one would expect a great deal more.",
+      "actual": "negative",
+      "predicted": "positive"
+    },
+    {
+      "text": "Nothing new there.",
+      "actual": "negative",
+      "predicted": "positive"
+    },
+    {
+      "text": "It was packed!!",
+      "actual": "negative",
+      "predicted": "positive"
+    },
+    {
+      "text": "The kids play area is NASTY!",
+      "actual": "negative",
+      "predicted": "positive"
+    },
+    {
+      "text": "After I pulled up my car I waited for another 15 minutes before being acknowledged.",
+      "actual": "negative",
+      "predicted": "positive"
+    },
+    {
+      "text": "Plan on ordering from them again and again.",
+      "actual": "positive",
+      "predicted": "negative"
+    },
+    {
+      "text": "The yellowtail carpaccio was melt in your mouth fresh.",
+      "actual": "positive",
+      "predicted": "negative"
+    },
+    {
+      "text": "Cumbersome design.",
+      "actual": "negative",
+      "predicted": "positive"
+    },
+    {
+      "text": "If you want a real scare rent this one!",
+      "actual": "positive",
+      "predicted": "negative"
+    }
+  ],
+  "training": {
+    "seed": 42,
+    "alpha": 0.01,
+    "epochs": 160,
+    "seconds": 40.21223545074463,
+    "device": "cpu",
+    "threads": 2,
+    "python": "3.12.10",
+    "torch": "2.5.1+cu121",
+    "sklearn": "1.8.0",
+    "encoder": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "encoder_frozen": true
+  },
+  "domain_transfer": {
+    "amazon_cells_labelled": {
+      "accuracy": 0.9086294416243654,
+      "macro_f1": 0.9086270871985158,
+      "pr_auc": 0.9479077792260031
+    },
+    "imdb_labelled": {
+      "accuracy": 0.88,
+      "macro_f1": 0.8794091046126018,
+      "pr_auc": 0.9655287023479261
+    },
+    "yelp_labelled": {
+      "accuracy": 0.949748743718593,
+      "macro_f1": 0.9497373206708426,
+      "pr_auc": 0.9850609116032678
+    }
+  },
+  "single_embedding_inference_ms": 39.98120012693107
+}

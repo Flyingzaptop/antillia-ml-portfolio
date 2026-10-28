@@ -1,0 +1,5 @@
+split,model,metric,value
+test,resnet18,accuracy,0.965679012345679
+test,resnet18,macro_f1,0.9644806167217
+test,baseline,accuracy,0.8209876543209876
+test,baseline,macro_f1,0.8130080590827446

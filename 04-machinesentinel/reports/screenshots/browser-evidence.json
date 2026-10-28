@@ -1,0 +1,68 @@
+[
+  {
+    "project": "04-machinesentinel",
+    "requestedWidth": 1440,
+    "language": "pl",
+    "heading": "Sygnały pod kontrolą.",
+    "lang": "pl",
+    "scrollWidth": 1425,
+    "title": "Machinesentinel",
+    "width": 1425,
+    "overflow": false
+  },
+  {
+    "project": "04-machinesentinel",
+    "requestedWidth": 768,
+    "language": "pl",
+    "heading": "Sygnały pod kontrolą.",
+    "lang": "pl",
+    "scrollWidth": 753,
+    "title": "Machinesentinel",
+    "width": 753,
+    "overflow": false
+  },
+  {
+    "project": "04-machinesentinel",
+    "requestedWidth": 390,
+    "language": "pl",
+    "heading": "Sygnały pod kontrolą.",
+    "lang": "pl",
+    "scrollWidth": 375,
+    "title": "Machinesentinel",
+    "width": 375,
+    "overflow": false
+  },
+  {
+    "project": "04-machinesentinel",
+    "requestedWidth": 1440,
+    "language": "en",
+    "heading": "Signals under control.",
+    "lang": "en",
+    "scrollWidth": 1425,
+    "title": "Machinesentinel",
+    "width": 1425,
+    "overflow": false
+  },
+  {
+    "project": "04-machinesentinel",
+    "requestedWidth": 768,
+    "language": "en",
+    "heading": "Signals under control.",
+    "lang": "en",
+    "scrollWidth": 753,
+    "title": "Machinesentinel",
+    "width": 753,
+    "overflow": false
+  },
+  {
+    "project": "04-machinesentinel",
+    "requestedWidth": 390,
+    "language": "en",
+    "heading": "Signals under control.",
+    "lang": "en",
+    "scrollWidth": 375,
+    "title": "Machinesentinel",
+    "width": 375,
+    "overflow": false
+  }
+]

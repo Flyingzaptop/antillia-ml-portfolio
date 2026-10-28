@@ -1,0 +1,7 @@
+# Security verification
+
+Dependency inventory: complete 56-package runtime/test dependency closure pinned in requirements.txt. pip-audit scanned that exact inventory with --disable-pip --no-deps; zero known vulnerabilities. npm audit scanned the lockfile: zero known vulnerabilities. Reports are machine-readable JSON alongside this document. Training provenance retains historical dependency versions, but deployment uses upgraded patched versions.
+
+Service binds to 127.0.0.1. It is a stateless local demo without user accounts. Text is not persisted or logged. Logs record request ID, method, path, status and latency. Request validation errors omit input values. Files are parsed in memory, never executed or used as filesystem paths. CSV max1MB/100rows, text3–2000characters. CSP, frame denial and no-sniff headers are applied. Artifacts and datasets are not static web roots. Only trusted shipped joblib files are loaded, and local transformer weights use safetensors. No remote model identifiers are accepted by the API.
+
+Negative API tests cover empty/oversized/invalid text, wrong extension/header/encoding, oversized CSV, too many rows, unavailable models and artifact-path exposure. Browser tests and deployment hardening are separate. Public hosting is not supported without authentication, TLS, reverse-proxy rate/body limits and an operational review. No claim of formal security certification is made.

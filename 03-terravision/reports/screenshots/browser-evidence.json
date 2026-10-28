@@ -1,0 +1,68 @@
+[
+  {
+    "project": "03-terravision",
+    "requestedWidth": 1440,
+    "language": "pl",
+    "heading": "Zobacz więcej.Zrozum teren.",
+    "lang": "pl",
+    "scrollWidth": 1425,
+    "title": "Terravision",
+    "width": 1425,
+    "overflow": false
+  },
+  {
+    "project": "03-terravision",
+    "requestedWidth": 768,
+    "language": "pl",
+    "heading": "Zobacz więcej.Zrozum teren.",
+    "lang": "pl",
+    "scrollWidth": 753,
+    "title": "Terravision",
+    "width": 753,
+    "overflow": false
+  },
+  {
+    "project": "03-terravision",
+    "requestedWidth": 390,
+    "language": "pl",
+    "heading": "Zobacz więcej.Zrozum teren.",
+    "lang": "pl",
+    "scrollWidth": 375,
+    "title": "Terravision",
+    "width": 375,
+    "overflow": false
+  },
+  {
+    "project": "03-terravision",
+    "requestedWidth": 1440,
+    "language": "en",
+    "heading": "See beyond.Understand terrain.",
+    "lang": "en",
+    "scrollWidth": 1425,
+    "title": "Terravision",
+    "width": 1425,
+    "overflow": false
+  },
+  {
+    "project": "03-terravision",
+    "requestedWidth": 768,
+    "language": "en",
+    "heading": "See beyond.Understand terrain.",
+    "lang": "en",
+    "scrollWidth": 753,
+    "title": "Terravision",
+    "width": 753,
+    "overflow": false
+  },
+  {
+    "project": "03-terravision",
+    "requestedWidth": 390,
+    "language": "en",
+    "heading": "See beyond.Understand terrain.",
+    "lang": "en",
+    "scrollWidth": 375,
+    "title": "Terravision",
+    "width": 375,
+    "overflow": false
+  }
+]

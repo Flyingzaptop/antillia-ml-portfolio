@@ -1,0 +1,68 @@
+[
+  {
+    "project": "02-intentroute",
+    "requestedWidth": 1440,
+    "language": "pl",
+    "heading": "Każda wiadomość.Właściwy kierunek.",
+    "lang": "pl",
+    "scrollWidth": 1425,
+    "title": "IntentRoute — Antillia",
+    "width": 1425,
+    "overflow": false
+  },
+  {
+    "project": "02-intentroute",
+    "requestedWidth": 768,
+    "language": "pl",
+    "heading": "Każda wiadomość.Właściwy kierunek.",
+    "lang": "pl",
+    "scrollWidth": 753,
+    "title": "IntentRoute — Antillia",
+    "width": 753,
+    "overflow": false
+  },
+  {
+    "project": "02-intentroute",
+    "requestedWidth": 390,
+    "language": "pl",
+    "heading": "Każda wiadomość.Właściwy kierunek.",
+    "lang": "pl",
+    "scrollWidth": 375,
+    "title": "IntentRoute — Antillia",
+    "width": 375,
+    "overflow": false
+  },
+  {
+    "project": "02-intentroute",
+    "requestedWidth": 1440,
+    "language": "en",
+    "heading": "Every message.The right direction.",
+    "lang": "en",
+    "scrollWidth": 1425,
+    "title": "IntentRoute — Antillia",
+    "width": 1425,
+    "overflow": false
+  },
+  {
+    "project": "02-intentroute",
+    "requestedWidth": 768,
+    "language": "en",
+    "heading": "Every message.The right direction.",
+    "lang": "en",
+    "scrollWidth": 753,
+    "title": "IntentRoute — Antillia",
+    "width": 753,
+    "overflow": false
+  },
+  {
+    "project": "02-intentroute",
+    "requestedWidth": 390,
+    "language": "en",
+    "heading": "Every message.The right direction.",
+    "lang": "en",
+    "scrollWidth": 375,
+    "title": "IntentRoute — Antillia",
+    "width": 375,
+    "overflow": false
+  }
+]

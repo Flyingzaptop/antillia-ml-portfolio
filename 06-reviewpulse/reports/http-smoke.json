@@ -1,0 +1,26 @@
+{
+  "status": 200,
+  "request_id_present": true,
+  "response": {
+    "results": [
+      {
+        "label": "positive",
+        "confidence": 0.9999995231628418,
+        "uncertain": false,
+        "top": [
+          {
+            "label": "positive",
+            "probability": 0.9999995231628418
+          },
+          {
+            "label": "negative",
+            "probability": 4.76837158203125e-07
+          }
+        ]
+      }
+    ],
+    "model": "embedding_mlp",
+    "elapsed_ms": 39.19,
+    "threshold": 0.8500000000000003
+  }
+}

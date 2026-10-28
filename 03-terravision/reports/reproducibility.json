@@ -1,0 +1,11 @@
+{
+  "tolerance": 1e-05,
+  "max_delta": 0.0,
+  "deltas": {
+    "resnet18/accuracy": 0.0,
+    "resnet18/macro_f1": 0.0,
+    "baseline/accuracy": 0.0,
+    "baseline/macro_f1": 0.0
+  },
+  "passed": true
+}

@@ -1,0 +1,14 @@
+
+> 02-intentroute@1.0.0 build
+> tsc && vite build
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 1566 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.36 kB │ gzip:  0.27 kB
+dist/assets/index-wVOszqiY.css   12.70 kB │ gzip:  3.58 kB
+dist/assets/index-zNxPn4GM.js   203.13 kB │ gzip: 65.97 kB
+
+✓ built in 505ms

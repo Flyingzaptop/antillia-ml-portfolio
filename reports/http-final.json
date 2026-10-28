@@ -1,0 +1,55 @@
+[
+  {
+    "url": "http://127.0.0.1:8101/api/v1/health",
+    "body": {
+      "status": "ok",
+      "project": "demandcast",
+      "models_loaded": true
+    }
+  },
+  {
+    "url": "http://127.0.0.1:8102/api/v1/health",
+    "body": {
+      "status": "ready",
+      "project": "IntentRoute"
+    }
+  },
+  {
+    "url": "http://127.0.0.1:8103/api/v1/health",
+    "body": {
+      "status": "ok",
+      "project": "TerraVision",
+      "model_loaded": true
+    }
+  },
+  {
+    "url": "http://127.0.0.1:8104/api/v1/health",
+    "body": {
+      "status": "ok",
+      "project": "MachineSentinel",
+      "model_loaded": true
+    }
+  },
+  {
+    "url": "http://127.0.0.1:8105/api/v1/health",
+    "body": {
+      "status": "ok",
+      "project": "basketwise",
+      "models_loaded": true
+    }
+  },
+  {
+    "url": "http://127.0.0.1:8106/api/v1/health",
+    "body": {
+      "status": "ready",
+      "project": "ReviewPulse"
+    }
+  },
+  {
+    "url": "http://127.0.0.1:8107/api/v1/readiness",
+    "body": {
+      "status": "ready",
+      "service": "ai-desk"
+    }
+  }
+]

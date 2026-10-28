@@ -1,0 +1,175 @@
+{
+  "dry_run": true,
+  "results": [
+    {
+      "project": "01-demandcast",
+      "files": 53,
+      "uncompressed_bytes": 2298733,
+      "archive": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\dist\\01-demandcast.zip",
+      "sha256": null,
+      "source_verification": {
+        "verified_against_recorded_hashes": [
+          "artifacts\\boosting.joblib",
+          "artifacts\\config.json",
+          "artifacts\\gru.pt",
+          "artifacts\\metrics.json",
+          "artifacts\\scaler.json",
+          "artifacts\\splits.npz",
+          "artifacts\\split_manifest.json",
+          "artifacts\\training_history.json",
+          "data\\bike-sharing.zip"
+        ],
+        "note": "All packaged files additionally receive SHA256 entries; encoder weights without prior manifest are inventoried, not claimed independently authenticated."
+      }
+    },
+    {
+      "project": "02-intentroute",
+      "files": 74,
+      "uncompressed_bytes": 521734274,
+      "archive": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\dist\\02-intentroute.zip",
+      "sha256": null,
+      "source_verification": {
+        "verified_against_recorded_hashes": [
+          "artifacts\\embedding_mlp.joblib",
+          "artifacts\\manifest.json",
+          "artifacts\\tfidf.joblib",
+          "artifacts\\training-requirements.txt",
+          "artifacts\\training.json",
+          "artifacts\\encoder\\config.json",
+          "artifacts\\encoder\\config_sentence_transformers.json",
+          "artifacts\\encoder\\LICENSE.txt",
+          "artifacts\\encoder\\model.safetensors",
+          "artifacts\\encoder\\modules.json",
+          "artifacts\\encoder\\README.md",
+          "artifacts\\encoder\\sentence_bert_config.json",
+          "artifacts\\encoder\\special_tokens_map.json",
+          "artifacts\\encoder\\tokenizer.json",
+          "artifacts\\encoder\\tokenizer_config.json",
+          "artifacts\\encoder\\1_Pooling\\config.json",
+          "data\\polish_control.json",
+          "data\\sample.csv",
+          "data\\splits.json",
+          "data\\test.csv",
+          "data\\test_embeddings.npy",
+          "data\\train.csv",
+          "data\\train_embeddings.npy",
+          "data\\validation_embeddings.npy"
+        ],
+        "note": "All packaged files additionally receive SHA256 entries; encoder weights without prior manifest are inventoried, not claimed independently authenticated."
+      }
+    },
+    {
+      "project": "03-terravision",
+      "files": 27056,
+      "uncompressed_bytes": 503930533,
+      "archive": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\dist\\03-terravision.zip",
+      "sha256": null,
+      "source_verification": {
+        "verified_against_recorded_hashes": [
+          "artifacts\\baseline.pkl",
+          "artifacts\\config.json",
+          "artifacts\\resnet18.pt",
+          "artifacts\\splits.json",
+          "data\\source.zip"
+        ],
+        "note": "All packaged files additionally receive SHA256 entries; encoder weights without prior manifest are inventoried, not claimed independently authenticated."
+      }
+    },
+    {
+      "project": "04-machinesentinel",
+      "files": 56,
+      "uncompressed_bytes": 6309451,
+      "archive": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\dist\\04-machinesentinel.zip",
+      "sha256": null,
+      "source_verification": {
+        "verified_against_recorded_hashes": [
+          "artifacts\\autoencoder.pt",
+          "artifacts\\config.json",
+          "artifacts\\isolationforest.pkl",
+          "artifacts\\scaler.pkl",
+          "artifacts\\splits.json",
+          "data\\source.zip"
+        ],
+        "note": "All packaged files additionally receive SHA256 entries; encoder weights without prior manifest are inventoried, not claimed independently authenticated."
+      }
+    },
+    {
+      "project": "05-basketwise",
+      "files": 50,
+      "uncompressed_bytes": 34735128,
+      "archive": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\dist\\05-basketwise.zip",
+      "sha256": null,
+      "source_verification": {
+        "verified_against_recorded_hashes": [
+          "artifacts\\catalog.json",
+          "artifacts\\config.json",
+          "artifacts\\evaluation_cases.json",
+          "artifacts\\metrics.json",
+          "artifacts\\split_manifest.json",
+          "artifacts\\train_matrix.npz",
+          "artifacts\\weights.npz",
+          "data\\online-retail.zip"
+        ],
+        "note": "All packaged files additionally receive SHA256 entries; encoder weights without prior manifest are inventoried, not claimed independently authenticated."
+      }
+    },
+    {
+      "project": "06-reviewpulse",
+      "files": 73,
+      "uncompressed_bytes": 494668430,
+      "archive": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\dist\\06-reviewpulse.zip",
+      "sha256": null,
+      "source_verification": {
+        "verified_against_recorded_hashes": [
+          "artifacts\\embedding_mlp.joblib",
+          "artifacts\\manifest.json",
+          "artifacts\\tfidf.joblib",
+          "artifacts\\training-requirements.txt",
+          "artifacts\\training.json",
+          "artifacts\\encoder\\config.json",
+          "artifacts\\encoder\\config_sentence_transformers.json",
+          "artifacts\\encoder\\LICENSE.txt",
+          "artifacts\\encoder\\model.safetensors",
+          "artifacts\\encoder\\modules.json",
+          "artifacts\\encoder\\README.md",
+          "artifacts\\encoder\\sentence_bert_config.json",
+          "artifacts\\encoder\\special_tokens_map.json",
+          "artifacts\\encoder\\tokenizer.json",
+          "artifacts\\encoder\\tokenizer_config.json",
+          "artifacts\\encoder\\1_Pooling\\config.json",
+          "data\\polish_control.json",
+          "data\\sample.csv",
+          "data\\sentiment.zip",
+          "data\\splits.json",
+          "data\\test_embeddings.npy",
+          "data\\train_embeddings.npy",
+          "data\\validation_embeddings.npy"
+        ],
+        "note": "All packaged files additionally receive SHA256 entries; encoder weights without prior manifest are inventoried, not claimed independently authenticated."
+      }
+    },
+    {
+      "project": "07-ai-desk",
+      "files": 117,
+      "uncompressed_bytes": 488616655,
+      "archive": "C:\\Users\\r3d_flzp\\Desktop\\Portfolio\\dist\\07-ai-desk.zip",
+      "sha256": null,
+      "source_verification": {
+        "verified_against_recorded_hashes": [
+          "artifacts\\encoder\\config.json",
+          "artifacts\\encoder\\config_sentence_transformers.json",
+          "artifacts\\encoder\\LICENSE",
+          "artifacts\\encoder\\model.safetensors",
+          "artifacts\\encoder\\modules.json",
+          "artifacts\\encoder\\README.md",
+          "artifacts\\encoder\\sentence_bert_config.json",
+          "artifacts\\encoder\\special_tokens_map.json",
+          "artifacts\\encoder\\tokenizer.json",
+          "artifacts\\encoder\\tokenizer_config.json",
+          "artifacts\\encoder\\1_Pooling\\config.json"
+        ],
+        "note": "All packaged files additionally receive SHA256 entries; encoder weights without prior manifest are inventoried, not claimed independently authenticated."
+      }
+    }
+  ]
+}

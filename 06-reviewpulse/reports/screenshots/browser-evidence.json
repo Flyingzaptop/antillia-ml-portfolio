@@ -1,0 +1,68 @@
+[
+  {
+    "project": "06-reviewpulse",
+    "requestedWidth": 1440,
+    "language": "pl",
+    "heading": "Posłuchaj, comówią klienci.",
+    "lang": "pl",
+    "scrollWidth": 1425,
+    "title": "ReviewPulse — Antillia",
+    "width": 1425,
+    "overflow": false
+  },
+  {
+    "project": "06-reviewpulse",
+    "requestedWidth": 768,
+    "language": "pl",
+    "heading": "Posłuchaj, comówią klienci.",
+    "lang": "pl",
+    "scrollWidth": 753,
+    "title": "ReviewPulse — Antillia",
+    "width": 753,
+    "overflow": false
+  },
+  {
+    "project": "06-reviewpulse",
+    "requestedWidth": 390,
+    "language": "pl",
+    "heading": "Posłuchaj, comówią klienci.",
+    "lang": "pl",
+    "scrollWidth": 375,
+    "title": "ReviewPulse — Antillia",
+    "width": 375,
+    "overflow": false
+  },
+  {
+    "project": "06-reviewpulse",
+    "requestedWidth": 1440,
+    "language": "en",
+    "heading": "Hear what yourcustomers mean.",
+    "lang": "en",
+    "scrollWidth": 1425,
+    "title": "ReviewPulse — Antillia",
+    "width": 1425,
+    "overflow": false
+  },
+  {
+    "project": "06-reviewpulse",
+    "requestedWidth": 768,
+    "language": "en",
+    "heading": "Hear what yourcustomers mean.",
+    "lang": "en",
+    "scrollWidth": 753,
+    "title": "ReviewPulse — Antillia",
+    "width": 753,
+    "overflow": false
+  },
+  {
+    "project": "06-reviewpulse",
+    "requestedWidth": 390,
+    "language": "en",
+    "heading": "Hear what yourcustomers mean.",
+    "lang": "en",
+    "scrollWidth": 375,
+    "title": "ReviewPulse — Antillia",
+    "width": 375,
+    "overflow": false
+  }
+]

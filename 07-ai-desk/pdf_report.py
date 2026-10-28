@@ -1,0 +1,22 @@
+from pathlib import Path
+import json
+from reportlab.platypus import SimpleDocTemplate,Paragraph,Spacer,Table,TableStyle,KeepTogether
+from reportlab.lib.styles import getSampleStyleSheet,ParagraphStyle
+from reportlab.lib.colors import HexColor
+from reportlab.lib.enums import TA_LEFT
+root=Path(__file__).parent;out=root/'reports';out.mkdir(exist_ok=True)
+def read(name):
+ p=root/'evaluation'/name
+ return json.loads(p.read_text(encoding='utf-8-sig')) if p.exists() else {}
+r=read('retrieval-results.json');live=read('live-results.json')
+security_rows=[x for x in live.get('results',[]) if x['category'] in ['access_denied','injection','document_injection']]
+styles=getSampleStyleSheet();styles['BodyText'].fontSize=9;styles['BodyText'].leading=12;styles['Heading2'].fontSize=12;styles['Heading2'].spaceBefore=8;styles['Heading2'].spaceAfter=5;styles.add(ParagraphStyle(name='TitleDesk',fontName='Helvetica-Bold',fontSize=28,leading=31,textColor=HexColor('#203b35'),spaceAfter=15));styles.add(ParagraphStyle(name='Deck',fontSize=10,leading=14,textColor=HexColor('#647965'),spaceAfter=13))
+story=[Paragraph('ANTILLIA PORTFOLIO / 07',styles['Deck']),Paragraph('Knowledge,<br/>with evidence.',styles['TitleDesk']),Paragraph('AI Desk — local document assistant<br/>Evaluation report · PL / EN workspace',styles['Deck'])]
+table=Table([['RETRIEVAL CHECKS','LIVE SCENARIOS','PERMISSION BOUNDARY'],[f"{r.get('retrieval_pass','Not run')} / {r.get('count','—')}",str(live.get('count','Not run')),'SQL ACL before retrieval']],colWidths=[150,130,210]);table.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,-1),HexColor('#edf2e5')),('TEXTCOLOR',(0,0),(-1,-1),HexColor('#294d3d')),('FONTSIZE',(0,0),(-1,0),9),('FONTSIZE',(0,1),(-1,1),12),('TOPPADDING',(0,0),(-1,-1),14),('BOTTOMPADDING',(0,0),(-1,-1),14)]));story+=[table,Spacer(1,25)]
+sections=[('Purpose and implementation','A local, document-grounded assistant for fictional Antillia North. Twenty authored topics have Polish and English versions. A CPU multilingual MiniLM encoder retrieves accessible chunks; Qwen3.5:4b generates locally through Ollama. No language model was trained from scratch.'),('Evaluation protocol','Seventy fixed scenarios cover document questions, unsupported questions, restricted content and prompt injection. Security templates repeat across languages; this is a project test suite, not an independent benchmark. Retrieval checks and live generation results are kept in separate JSON artifacts.'),('Measured live outcomes',f"Completed transport: {sum(x.get('transport_pass',False) for x in live.get('results',[]))} / {live.get('count',0)}. Forbidden-text checks: {sum(x.get('security_pass',False) for x in security_rows)} / {len(security_rows)}. These automated checks do not establish semantic correctness. Inspect recorded answers and citations."),('Security and operational limits','Session authentication and CSRF protect mutations. Chat ownership and document access are checked on the server. Documents cannot grant new tools or permissions. The assistant has no shell, browser or arbitrary filesystem tools. Citation IDs are validated before buffered SSE delivery; semantic entailment still needs review.'),('Reproduce and inspect','Run evaluate.ps1 for retrieval and evaluate.ps1 -Live for generation. See evaluation-tests.txt for security tests, reports/retrieval.csv for per-case metrics and reports/checksums.json for model hashes. Exact dependency versions are pinned. Offline operation requires a prepared encoder and a locally installed Ollama model.'),('Limitations and licensing','The retrieval threshold is a demonstration heuristic, not a calibrated probability. Hallucinations and misleading citations remain possible. English and Polish tests do not establish multilingual generalisation. Model: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2, Apache-2.0. Project code and fictional documents: MIT. This report is not external certification.')]
+for title,body in sections:story.append(KeepTogether([Paragraph(title,styles['Heading2']),Paragraph(body,styles['BodyText']),Spacer(1,6)]))
+def footer(c,d):
+ c.setFont('Helvetica',8);c.setFillColor(HexColor('#647965'));c.drawString(45,28,'AI DESK / REPRODUCIBLE LOCAL DEMONSTRATION');c.drawRightString(550,28,str(d.page))
+SimpleDocTemplate(str(out/'report.pdf'),pagesize=(595,842),rightMargin=45,leftMargin=45,topMargin=45,bottomMargin=45).build(story,onFirstPage=footer,onLaterPages=footer)
+print(out/'report.pdf')
+
