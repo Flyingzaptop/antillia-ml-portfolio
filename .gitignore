@@ -21,3 +21,8 @@ tools/adopt_task_services.py
 tools/scaffold_owned.py
 **/logs/
 tools/prepare_publication.py
+**/*.sqlite3-wal
+**/*.sqlite3-shm
+**/*.sqlite3-journal
+**/*.tsbuildinfo
+reports/packaging/tool-selftest/
