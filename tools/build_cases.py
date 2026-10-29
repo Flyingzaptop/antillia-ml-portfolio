@@ -83,3 +83,5 @@ body='<section class="wrap index-hero"><p class="eyebrow"><span class="status-do
 (R/'index.html').write_text(shell('Machine learning portfolio',body).replace('href="#model"','href="terravision.html#model"').replace('href="#uses"','href="ai-desk.html#uses"'),encoding='utf8')
 (R/'CASE_STUDIES.md').write_text('# Antillia case-study pages\n\nOpen index.html directly, or run `py -3.12 tools/serve_cases.py` and visit http://127.0.0.1:8090 .\n\n'+''.join(f'- [{c["name"]}]({c["slug"]}.html)\n' for c in CASES)+'\nDesign uses the original antillia.tech site.css, its Manrope/DM Sans fonts and Antillia mark. Font licenses are in case-study-assets/fonts/. Diagrams are original SVG, model visualizations derive from saved artifacts, and screenshots are actual app captures. PL/EN is switched locally without external APIs. These files are prepared for later integration into antillia.tech; production site has not been modified.\n',encoding='utf8')
 print('Built seven bilingual case studies and index in Portfolio root.')
+from customer_cases import apply as apply_customer_presentation
+apply_customer_presentation()
