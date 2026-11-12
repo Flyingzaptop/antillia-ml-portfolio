@@ -7,7 +7,7 @@
 Требуются Python 3.12, Node.js 22.12+ (проверено на Node 24), PowerShell. Первоначальная установка требует интернет; подготовленный inference работает офлайн.
 
 ```powershell
-cd "C:\Users\r3d_flzp\Desktop\Portfolio\02-intentroute"
+cd 02-intentroute
 .\setup.ps1
 .\run.ps1
 # http://127.0.0.1:8102

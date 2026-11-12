@@ -7,7 +7,7 @@
 Требования: Windows, Python 3.12, Node.js 22.12+ и Ollama с `qwen3.5:4b`.
 
 ```powershell
-cd "C:\Users\r3d_flzp\Desktop\Portfolio\07-ai-desk"
+cd 07-ai-desk
 .\setup.ps1
 ollama serve
 .\run.ps1
